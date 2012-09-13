@@ -1,3 +1,7 @@
+maerepinmarkBundle:
+    resource: "@maerepinmarkBundle/Resources/config/routing.php"
+    prefix:   /
+
 EphemeroidtestBundle:
     resource: "@EphemeroidtestBundle/Resources/config/routing.php"
     prefix:   /
