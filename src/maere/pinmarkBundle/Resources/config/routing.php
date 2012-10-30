@@ -7,5 +7,8 @@ $collection = new RouteCollection();
 $collection->add('maerepinmarkBundle_homepage', new Route('/maere/{name}', array(
     '_controller' => 'maerepinmarkBundle:Default:index',
 )));
+$collection->add('maerepinmarkBundle_homepage', new Route('/maere/', array(
+    '_controller' => 'maerepinmarkBundle:Default:index',
+)));
 
 return $collection;

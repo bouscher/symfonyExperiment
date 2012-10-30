@@ -3,17 +3,16 @@
 namespace maere\pinmarkBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Response;
+
 
 
 class DefaultController extends Controller
 {
     
-    public function indexAction($name)
+    public function indexAction($name='Nothing much')
     {
-        $shitcrap =$this->render('maerepinmarkBundle:Default:index.html.twig', array('name' => $name.' is an asshole'));
-        $shitcrap=$shitcrap;
-        $response=new Response("$shitcrap");
+        $response =$this->render('maerepinmarkBundle:Default:index.html.twig', array('name' => $name.' has been inputted'));
+        
         return $response;
     }
 }
