@@ -4,7 +4,7 @@ maerepinmarkBundle:
 
 EphemeroidtestBundle:
     resource: "@EphemeroidtestBundle/Resources/config/routing.php"
-    prefix:   /
+    prefix:   /etest
 
 # Internal routing configuration to handle ESI
 #_internal:
